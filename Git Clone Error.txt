@@ -1,0 +1,25 @@
+git -c filter.lfs.smudge= -c filter.lfs.required=false -c diff.mnemonicprefix=false -c core.quotepath=false -c credential.helper=manager-st clone --branch master --recursive ssh://git@stash.cdk.com/idrive/idrive.git C:\Vaibhav\SWClone
+Cloning into 'C:\Vaibhav\SWClone'...
+warning: templates not found C:\Users\gurjarv\AppData\Local\Programs\Git\share\git-core\templates
+
+Submodule 'sw' (git@gitlab.gbh.dsi.adp.com:releng/full-drive-software.git) registered for path 'sw'
+Cloning into 'C:/Vaibhav/SWClone/sw'...
+Warning: Permanently added the RSA host key for IP address '172.31.250.8' to the list of known hosts.
+GitLab: The project you were looking for could not be found.
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+fatal: clone of 'git@gitlab.gbh.dsi.adp.com:releng/full-drive-software.git' into submodule path 'C:/Vaibhav/SWClone/sw' failed
+Failed to clone 'sw'. Retry scheduled
+
+Cloning into 'C:/Vaibhav/SWClone/sw'...
+GitLab: The project you were looking for could not be found.
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+fatal: clone of 'git@gitlab.gbh.dsi.adp.com:releng/full-drive-software.git' into submodule path 'C:/Vaibhav/SWClone/sw' failed
+Failed to clone 'sw' a second time, aborting
+
+Completed with errors, see above.
